@@ -14,7 +14,8 @@ public class CodingSelenium {
       WebDriver driver=new ChromeDriver();  
         
          // Launch Website  
-      driver.navigate().to("http://www.javatpoint.com/");  
+      driver.navigate().to("http://www.javatpoint.com/");
+      System.out.println("Welcome to Pune");
         
        //Maximize the browser  
         driver.manage().window().maximize();  
